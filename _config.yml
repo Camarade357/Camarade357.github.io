@@ -38,6 +38,3 @@ defaults:
       layout: post
       read_time: true
       share: false
-
-extra_css:
-  - /assets/css/override.css

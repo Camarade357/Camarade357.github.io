@@ -1,27 +1,16 @@
-.wrapper {
-  max-width: 1200px !important;
-  width: 92% !important;
-  margin: 0 auto !important;
-  padding: 0 20px !important;
-}
-
+/* Wider container */
 .container {
-  max-width: 1200px !important;
-  width: 92% !important;
+  max-width: 1400px !important;
 }
 
-.post-cards-container {
-  grid-template-columns: repeat(3, 1fr) !important;
-}
-
-@media (max-width: 900px) {
-  .post-cards-container {
-    grid-template-columns: repeat(2, 1fr) !important;
+/* 3-column article grid on desktop */
+@media (min-width: 992px) {
+  .article.col.col-t-6 {
+    width: 33.333% !important;
   }
 }
 
-@media (max-width: 600px) {
-  .post-cards-container {
-    grid-template-columns: 1fr !important;
-  }
+/* Subtitle color override */
+.header-subtitle {
+  color: #ffffff !important;
 }
