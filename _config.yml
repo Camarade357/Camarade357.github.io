@@ -15,7 +15,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
-subtitle: CFO × Fractional CAIO | <span style="color:#f58506"> Finance & Immobilier </span>
+subtitle: "CFO × Fractional CAIO | Finance & Immobilier"
 location: "Laval, Québec, Canada"
 avatar_image: /img/Photo du profil 3.jpg
 
@@ -38,3 +38,6 @@ defaults:
       layout: post
       read_time: true
       share: false
+
+extra_css:
+  - /assets/css/override.css

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PropTech Market Intelligence — Veille immobilière automatisée Montréal
-image: "/posts/market-intelligence.jpg"
+image: "/posts/courticonnect_logo_gbp.png"
 tags: [Python, Supabase, Cron, Scraping, PropTech]
 ---
 

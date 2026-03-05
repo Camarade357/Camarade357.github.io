@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CourtiConnect — Plateforme PropTech Québec
-image: "/posts/courticonnect.jpg"
+image: "/posts/courticonnect_cover_gbp.png"
 tags: [Next.js, Supabase, IA, PropTech, TypeScript]
 ---
 
