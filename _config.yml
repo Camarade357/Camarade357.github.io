@@ -1,22 +1,40 @@
-# =============================================
-# GENERAL SITE SETTINGS
-# =============================================
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+#-------------------------------
+# General Site Settings
 title: Hamza Taleb
 description: "CFO × Fractional CAIO | Systèmes IA pour la finance et l'immobilier | Québec · Maroc · Afrique francophone"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# =============================================
-# ABOUT SECTION
-# =============================================
+#-------------------------------
+# About Section
+subtitle: CFO × Fractional CAIO | <span style="color:#f58506"> Finance & Immobilier </span>
 location: "Laval, Québec, Canada"
-avatar_img: /img/Photo du profil 3.jpg
+avatar_image: /img/Photo du profil 3.jpg
 
-# =============================================
-# CONTACT LINKS
-# =============================================
+#-------------------------------
+# Contact links
 linkedin: "https://www.linkedin.com/in/hamzataleb"
 github: "https://github.com/Camarade357"
 
-# =============================================
-# PAGINATION
-# =============================================
 paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: false
