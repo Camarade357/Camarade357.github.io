@@ -1,6 +1,6 @@
-/* Wider container */
+/* 90% screen width */
 .container {
-  max-width: 1400px !important;
+  max-width: 90% !important;
 }
 
 /* 3-column article grid on desktop */
