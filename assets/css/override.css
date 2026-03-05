@@ -1,22 +1,22 @@
-/* 90% screen width on all pages */
 .container {
-  max-width: 90% !important;
+  max-width: 95% !important;
+  width: 95% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
-/* Post content full width inside container */
-.col.col-t-10.push-t-1 {
+.col-t-10 {
   width: 100% !important;
+}
+
+.push-t-1 {
   margin-left: 0 !important;
 }
 
-/* 3-column article grid on desktop */
-@media (min-width: 992px) {
-  .article.col.col-t-6 {
-    width: 33.333% !important;
-  }
+.col-t-6.article {
+  width: 33.33% !important;
 }
 
-/* Subtitle color override */
 .header-subtitle {
   color: #ffffff !important;
 }
