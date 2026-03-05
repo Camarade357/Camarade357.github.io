@@ -1,6 +1,12 @@
-/* 90% screen width */
+/* 90% screen width on all pages */
 .container {
   max-width: 90% !important;
+}
+
+/* Post content full width inside container */
+.col.col-t-10.push-t-1 {
+  width: 100% !important;
+  margin-left: 0 !important;
 }
 
 /* 3-column article grid on desktop */
